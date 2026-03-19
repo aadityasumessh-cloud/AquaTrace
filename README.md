@@ -21,7 +21,3 @@ Water management is a critical challenge in institutional environments. This pro
 - ⚡ Dashboard auto-launch on running the script  
 
 ---
-## Image
-screenshot1.png
-screenshot2.png
----
