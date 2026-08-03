@@ -1,0 +1,25 @@
+# ── AquaTrace — Full Stack Requirements ──────────────────────────────────────
+
+# Dashboard (Streamlit)
+streamlit>=1.33.0
+plotly>=5.20.0
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+
+# Backend (FastAPI)
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+sqlalchemy>=2.0.0
+pydantic>=2.6.0
+
+# Database drivers (uncomment the one you need)
+# SQLite is built into Python — no extra package needed
+# For PostgreSQL, uncomment:
+# psycopg2-binary>=2.9.9
+
+# HTTP client (sensor_sim → API, dashboard → API)
+requests>=2.31.0
+
+# Optional: load .env files
+python-dotenv>=1.0.0
